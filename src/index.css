@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* login-form is className of Form element which is wrapping input field and label*/
+.login-form {
+  max-width: 80%;
+  margin-left: 40px;
+  }
+
+  .login-form h2{
+    text-align: center;
+  color:aliceblue;
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  }
+
+  /* no need to design because div is block element & it coverswhole line */
+  /* .login-form div {
+  display: flex;
+  flex-direction: column;
+    margin: 0px auto;
+
+  } */
+
+/* sign-in is className of button */
+  .sign-in {
+    /* white-space: nowrap; */
+    /* white space property shows */
+    background-color: #db6f26;
+    color: #fff;
+    padding: 6px;
+    margin-top: 10px;
+    width: 30%;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 900;
+    cursor: pointer;
+    border: 5px solid #d88405;
+    /* border  solid property save us from default black color border of button */
+
+    /* outline:rgb(90, 30, 247); */
+  }
+
+
+/* target whole input feild  designing*/
+  .login-form input {
+    width: 90%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 10px solid #d1d12e;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    /* margin: 0px auto; */
+  }
+
+  .react-app-main-container{
+    width: 50%;
+    height: 400px;
+    padding: 40px;
+    border-radius: 45px;
+    margin-left: 30px;
+    background-color: #55b3a8;
+    box-shadow:10px 20px 30px #036c60;
+    text-decoration: solid;
+    font-size: x-large;
+    font-weight: 900;
+  }
+   /* this className .main-container represent the whole react-app boundry */
+
+  .maim-form{
+    margin: 0% auto;
+  }
+/* main-form is className of div which is wrapping the react-app-component */
+
+/* sign-up-page is className of signup page */
+  .sign-up-page{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    
+  }
+  /* sign-up is class of logout button */
+  .sign-up{
+    background-color: #d88405;
+    color: #fff;
+    width: 25%;
+    font-size: large;
+    font-weight: 800;
+    padding: 7px;
+    border-radius: 0.5rem;
+    border: 5px solid white;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+
